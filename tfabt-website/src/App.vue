@@ -1,8 +1,18 @@
 <template>
-  
+  <GuildEmblem />
+  <h1>The Fish and Bread Trick</h1>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent } from 'vue';
+import GuildEmblem from './components/top-banner/guild-emblem.vue';
+
+export default defineComponent({
+  components: {
+    GuildEmblem
+  }
+});
+
 </script>
 
 <style scoped>

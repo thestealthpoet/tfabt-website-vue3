@@ -1,0 +1,4 @@
+{
+  "volar.takeOverMode.enabled": true,
+  "terminal.integrated.cwd": "${workspaceFolder}"
+}
