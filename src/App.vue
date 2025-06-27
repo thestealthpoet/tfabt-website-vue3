@@ -1,18 +1,24 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <GuildEmblem />
+    <h1>The Fish and Bread Trick</h1>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+import GuildEmblem from './components/guild-emblem/guild-emblem.vue';
+
+export default defineComponent({
+  components: {
+    GuildEmblem
+  }
+})
+
+
+</script>
+
+
 
 <style scoped>
 .logo {
