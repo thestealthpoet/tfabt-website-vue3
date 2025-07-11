@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/cinzel-decorative": "^5.2.6",
     "vue": "^3.5.17"
   },
   "devDependencies": {

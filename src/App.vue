@@ -1,7 +1,6 @@
 <template>
   <div>
     <GuildEmblem />
-    <h1>The Fish and Bread Trick</h1>
   </div>
 </template>
 
