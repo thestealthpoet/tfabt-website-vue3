@@ -1,16 +1,23 @@
 <template>
-  <div>
-    <GuildEmblem />
+  <div class="landing-page-container">
+    <div class="guild-emblem-header">
+      <GuildEmblem />
+    </div>
+    <div class="about-guild-container">
+      <AboutGuild />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import GuildEmblem from './components/guild-emblem/guild-emblem.vue';
+import AboutGuild from './components/about-guild/about-guild.vue';
 
 export default defineComponent({
   components: {
-    GuildEmblem
+    GuildEmblem,
+    AboutGuild
   }
 })
 
@@ -20,16 +27,8 @@ export default defineComponent({
 
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.landing-page-container {
+  border-style: dotted;
+  padding: 15px;
 }
 </style>

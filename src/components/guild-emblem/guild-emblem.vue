@@ -45,9 +45,13 @@ export default {
     .guild-name {
         font-family: 'Cinzel Decorative', serif;
         font-size: 2.5rem;
-        color: #f9e8c5;
+        color: #e5c88c;
         text-shadow: 2px 2px 4px #000;
         margin: 0;
+    }
+
+    .guild-subtitle {
+        color: #f7f0e3
     }
 }
 
