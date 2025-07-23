@@ -27,8 +27,5 @@ export default defineComponent({
 
 
 <style scoped>
-.landing-page-container {
-  border-style: dotted;
-  padding: 15px;
-}
+
 </style>

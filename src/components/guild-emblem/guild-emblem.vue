@@ -6,11 +6,10 @@
         src="../../assets/TFABT_Shield_Small_transparent.png" 
         />
         <div class="guild-name-wrapper">
-        <h1 class="guild-name">{{ guildName }}</h1>
-        <h2 class="guild-subtitle">{{ guildSubtitle }}</h2>
-    </div>
-    </div>
-    
+            <h1 class="guild-name">{{ guildName }}</h1>
+            <h2 class="guild-subtitle">{{ guildSubtitle }}</h2>
+        </div>
+    </div>  
 </template>
 
 <script lang="ts">
@@ -32,11 +31,12 @@ export default {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 
     .guild-emblem {
-    width: 175px;
-    height: 200px;
-}
+        width: 180px;
+        height: 200px;
+    }
 
 .guild-name-wrapper {
     display: flex;
