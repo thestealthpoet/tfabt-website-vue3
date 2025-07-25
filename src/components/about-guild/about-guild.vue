@@ -22,7 +22,7 @@ export default {
 
     data() {
         return {
-            aboutTfabt: "About TF&BT",
+            aboutTfabt: "About the Guild",
             guildDescription: "TF&BT is a Christian and family-friendly guild focused on fellowship and playing together to succeed",
             extraInformation: "We are located on the Dalaran server, happily accepting both Horde and Alliance players",
             guildFocusInformation: "We are an AOTC focused guild with raiding on Tuesday and Saturday at 8 PM EST"
@@ -42,6 +42,11 @@ export default {
     .about-text-wrapper {
         display: flex;
         flex-direction: column;
+
+        .about-tfbt-header {
+            font-family: 'EB Garamond', serif;
+            font-weight: 700;
+        }
 
         .about-list {
             list-style: disc;

@@ -1,15 +1,11 @@
 <template>
     <div class="guild-emblem-wrapper">
-        <img
-        class="guild-emblem"
-        alt="Guild Emblem" 
-        src="../../assets/TFABT_Shield_Small_transparent.png" 
-        />
+        <img class="guild-emblem" alt="Guild Emblem" src="../../assets/TFABT_Shield_Small_transparent.png" />
         <div class="guild-name-wrapper">
             <h1 class="guild-name">{{ guildName }}</h1>
             <h2 class="guild-subtitle">{{ guildSubtitle }}</h2>
         </div>
-    </div>  
+    </div>
 </template>
 
 <script lang="ts">
@@ -26,7 +22,6 @@ export default {
 </script>
 
 <style scoped>
-
 .guild-emblem-wrapper {
     display: flex;
     flex-direction: row;
@@ -38,25 +33,24 @@ export default {
         height: 200px;
     }
 
-.guild-name-wrapper {
-    display: flex;
-    flex-direction: column;
+    .guild-name-wrapper {
+        display: flex;
+        flex-direction: column;
 
-    .guild-name {
-        font-family: 'Cinzel Decorative', serif;
-        font-size: 2.5rem;
-        color: #e5c88c;
-        text-shadow: 2px 2px 4px #000;
-        margin: 0;
+        .guild-name {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 2.5rem;
+            color: #e5c88c;
+            text-shadow: 2px 2px 4px #000;
+            margin: 0;
+        }
+
+        .guild-subtitle {
+            font-family: 'EB Garamond', serif;
+            font-weight: 700;
+            color: #f7f0e3
+        }
     }
 
-    .guild-subtitle {
-        color: #f7f0e3
-    }
 }
-
-}
-
-
 </style>
-
