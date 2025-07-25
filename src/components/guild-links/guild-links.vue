@@ -66,6 +66,9 @@ export default {
   text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(255, 180, 60, 0.1);
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .guild-link-button:hover {
