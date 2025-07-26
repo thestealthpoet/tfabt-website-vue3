@@ -1,6 +1,6 @@
 <template>
     <div class="guild-emblem-wrapper">
-        <img class="guild-emblem" alt="Guild Emblem" src="../../assets/TFABT_Shield_Small_transparent.png" />
+        <img class="guild-emblem" alt="Guild Emblem" src="../../../assets/TFABT_Shield_Small_transparent.png" />
         <div class="guild-name-wrapper">
             <h1 class="guild-name">{{ guildName }}</h1>
             <h2 class="guild-subtitle">{{ guildSubtitle }}</h2>

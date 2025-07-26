@@ -11,7 +11,7 @@
             </ul>
         </div>
         <div class="guild-history-image" @pointerenter="resetShowBibleVerse" @pointerleave="resetShowBibleVerse">
-            <img class="guild-fellowship" alt="Guild fellowship image" src="../../assets/GuildHistoryImage.png">
+            <img class="guild-fellowship" alt="Guild fellowship image" src="../../../assets/GuildHistoryImage.png">
             <div v-if="showBibleVerseOnImageHover" class="verse-wrapper">
                 <p class="verse">{{ bibleVerse }}</p>
                 <span class="reference">{{ verseReference }}</span>

@@ -10,7 +10,7 @@
         </div>
 
         <div class="guild-cozy-image" @pointerenter="resetShowBibleVerse" @pointerleave="resetShowBibleVerse">
-            <img class="campfire" alt="Cozy Guild Image" src="../../assets/GuildCozyImage.png" />
+            <img class="campfire" alt="Cozy Guild Image" src="../../../assets/GuildCozyImage.png" />
             <div v-if="showBibleVerseOnImageHover" class="verse-wrapper">
                 <p class="verse">{{ bibleVerse }}</p>
                 <span class="reference">{{ verseReference }}</span>

@@ -18,7 +18,8 @@
             </ul>
         </div>
         <div class="guild-application-image" @pointerenter="resetShowBibleVerse" @pointerleave="resetShowBibleVerse">
-            <img class="guild-application" alt="Guild Application image" src="../../assets/GuildApplicationImage.png">
+            <img class="guild-application" alt="Guild Application image"
+                src="../../../assets/GuildApplicationImage.png">
             <div v-if="showBibleVerseOnImageHover" class="verse-wrapper">
                 <p class="verse">
                     {{ bibleVerse }}
