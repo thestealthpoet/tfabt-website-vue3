@@ -1,6 +1,9 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import '@fontsource/cinzel-decorative/700.css';
+import router from './router'
+import '@fontsource/cinzel-decorative/700.css'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(router)
+app.mount('#app')

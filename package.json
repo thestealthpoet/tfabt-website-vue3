@@ -14,7 +14,8 @@
     "@fontsource/cinzel-decorative": "^5.2.6",
     "@fontsource/eb-garamond": "^5.2.6",
     "@fontsource/uncial-antiqua": "^5.2.6",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
