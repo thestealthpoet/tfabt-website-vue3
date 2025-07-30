@@ -1,9 +1,18 @@
 <template>
     <div class="faqs-wrapper">
         <div v-for="faq in guildFaqs" class="question-answer-container">
-            <v-btn>
-
-            </v-btn>
+            <div class="question-container">
+                <v-btn
+                :icon="faq.openPanel ? 'expand_circle_down' : 'expand_circle_up'"
+                size="x-small"
+                @click="faq.openPanel = !faq.openPanel"
+                >
+                </v-btn>
+                <div class="question">{{ faq.question }}</div>
+            </div>
+            <div v-if="faq.openPanel" class="answer-container">
+                {{ faq.answer }}
+            </div>
         </div>
     </div>
 </template>
@@ -66,5 +75,16 @@ export default {
 </script>
 
 <style scoped>
+
+.faqs-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .question-answer-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
 
 </style>
