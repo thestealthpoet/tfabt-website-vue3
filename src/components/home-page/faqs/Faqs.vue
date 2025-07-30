@@ -3,7 +3,7 @@
         <div v-for="faq in guildFaqs" class="question-answer-container">
             <div class="question-container">
                 <v-btn
-                :icon="faq.openPanel ? 'expand_circle_down' : 'expand_circle_up'"
+                :icon="faq.openPanel ? 'mdi-chevron-down' : 'mdi-chevron-up'"
                 size="x-small"
                 @click="faq.openPanel = !faq.openPanel"
                 >
