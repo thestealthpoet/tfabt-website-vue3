@@ -25,7 +25,7 @@ export default {
 
 </script>
 
-<style scope>
+<style scoped>
 .discord-button {
     display: inline-flex;
     align-items: center;

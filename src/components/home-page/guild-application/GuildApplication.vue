@@ -63,7 +63,7 @@ export default {
 
 </script>
 
-<style scope>
+<style scoped>
 .guild-application-wrapper {
     display: flex;
     flex-direction: row;

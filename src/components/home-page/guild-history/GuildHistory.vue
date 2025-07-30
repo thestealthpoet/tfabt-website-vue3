@@ -47,7 +47,7 @@ export default {
 
 </script>
 
-<style scope>
+<style scoped>
 .guild-history-wrapper {
     display: flex;
     flex-direction: row-reverse;
