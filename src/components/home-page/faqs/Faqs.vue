@@ -85,6 +85,7 @@ export default {
 .faqs-wrapper {
     display: flex;
     flex-direction: column;
+    max-width: 775px;
 
     .question-answer-container {
         display: flex;
@@ -95,11 +96,10 @@ export default {
             flex-direction: row;
             align-items: center;
             gap: 5px;
+        }
 
-            .v-btn:focus-visible .v-btn__overlay {
-                box-shadow: 0 0 0 2px rgba(0, 150, 255, 0.5) !important;
-                outline: none !important;
-            }
+        .answer-container {
+            text-align: start;
         }
     }
 }
