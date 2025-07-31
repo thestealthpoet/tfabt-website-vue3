@@ -3,15 +3,21 @@
         <div v-for="faq in guildFaqs" class="question-answer-container">
             <div class="question-container">
                 <v-btn
-                :icon="faq.openPanel ? 'mdi-chevron-down' : 'mdi-chevron-up'"
+                icon
                 size="x-small"
+                variant="text"
                 @click="faq.openPanel = !faq.openPanel"
                 >
+                    <v-icon 
+                    :icon="faq.openPanel ? 'mdi-chevron-down' : 'mdi-chevron-up'" 
+                    />
                 </v-btn>
                 <div class="question">{{ faq.question }}</div>
             </div>
             <div v-if="faq.openPanel" class="answer-container">
-                {{ faq.answer }}
+                <span class="answer">
+                    {{ faq.answer }}
+                </span>
             </div>
         </div>
     </div>
@@ -84,6 +90,17 @@ export default {
         display: flex;
         flex-direction: column;
 
+        .question-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5px;
+
+            .v-btn:focus-visible .v-btn__overlay {
+                box-shadow: 0 0 0 2px rgba(0, 150, 255, 0.5) !important;
+                outline: none !important;
+            }
+        }
     }
 }
 
