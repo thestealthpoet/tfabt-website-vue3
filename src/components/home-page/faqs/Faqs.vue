@@ -36,7 +36,7 @@ export default {
             guildFaqs: [
                 {
                     question: "What is The Fish and Bread Trick?",
-                    answer: "The Fish and Bread Trick is a Horde Christian and family-friendly guild on the Dalaran-US-EST server. Our guild is focused on solid community through gaming and encouraging each other in our faiths.  People of all faiths or non-faiths are welcome to join. The only thing we ask is mutual respect towards each other and keeping the language to a PG level in guild chat and Discord.",
+                    answer: "The Fish and Bread Trick is a Horde and Alliance Christian and family-friendly guild on the Dalaran-US-EST server. Our guild is focused on solid community through gaming and encouraging each other in our faiths.  People of all faiths or non-faiths are welcome to join. The only thing we ask is mutual respect towards each other and keeping the language to a PG level in guild chat and Discord.",
                     openPanel: false
                 },
                 {
@@ -93,7 +93,12 @@ export default {
             flex-direction: row;
             align-items: center;
             gap: 5px;
-            margin: 6px;
+            margin: 8px;
+
+            .question {
+                font-size: 20px;
+                font-weight: 700;
+            }
         }
 
         .answer-container {
