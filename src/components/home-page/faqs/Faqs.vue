@@ -19,7 +19,7 @@
                     {{ faq.answer }}
                 </span>
                 <span class="link" v-if="faq.link">
-                    <a :href="faq.link">{{ faq.link }}</a>
+                    <a :href="faq.link" target="_blank" rel="noopener noreferrer">{{ faq.link }}</a>
                 </span>
             </div>
         </div>
@@ -73,12 +73,6 @@ export default {
             ]
         }
     },
-
-    methods: {
-        doSomething() {
-            console.log("something");
-        }
-    }
 }
 
 </script>
