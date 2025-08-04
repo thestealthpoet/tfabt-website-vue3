@@ -32,7 +32,6 @@ export default {
 
     data() {
         return {
-            something: "",
             guildFaqs: [
                 {
                     question: "What is The Fish and Bread Trick?",
