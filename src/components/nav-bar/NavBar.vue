@@ -4,7 +4,7 @@
       <div class="nav-links">
         <router-link to="/" exact-active-class="active-link">{{ homeText }}</router-link>
         <router-link to="/faqs" exact-active-class="active-link">{{ faqsText }}</router-link>
-        <a :href="guildApplicationLink">
+        <a :href="guildApplicationLink" target="_blank" rel="noopener noreferrer">
           {{ guildApplicationText }}
         </a>
       </div>

@@ -7,7 +7,7 @@
             <ul class="app-process-list">
                 <li>{{ basics }}</li>
                 <li>
-                    <a :href="guildApplicationLink">
+                    <a :href="guildApplicationLink" target="_blank" rel="noopener noreferrer">
                         {{ fillOutApplication }}
                     </a>
                 </li>
