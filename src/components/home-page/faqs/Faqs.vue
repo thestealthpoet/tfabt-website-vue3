@@ -18,6 +18,9 @@
                 <span class="answer">
                     {{ faq.answer }}
                 </span>
+                <span class="link" v-if="faq.link">
+                    <a :href="faq.link">{{ faq.link }}</a>
+                </span>
             </div>
         </div>
     </div>
@@ -96,10 +99,16 @@ export default {
             flex-direction: row;
             align-items: center;
             gap: 5px;
+            margin: 6px;
         }
 
         .answer-container {
             text-align: start;
+            padding-left: 64px;
+
+            .link {
+                padding-left: 2px;
+            }
         }
     }
 }
